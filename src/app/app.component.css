@@ -1,0 +1,9 @@
+.content-container {
+  margin: 20px;
+}
+/* From 600px onward the menu sidebar is visible so the content must be moved to the right */
+@media only screen and (min-width: 600px) {
+  .content-container {
+    margin-left: 220px;
+  }
+}
